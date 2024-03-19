@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace ICipher
+﻿namespace ICipher
 {
     /*internal class Program
     {
