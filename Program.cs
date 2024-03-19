@@ -159,6 +159,35 @@
         }
     }*/
 
+    /*public class AdditionalTask5
+    {
+        static void Main(string[] args)
+        {
+            Func<string, int> closestToZero = str =>
+            {
+                string[] numbers = str.Split(' ');
+                int closestNumber = int.Parse(numbers[0]);
+                int currentNumber;
+                for (int i = 1; i < numbers.Length; i++)
+                {
+                    currentNumber = int.Parse(numbers[i]);
+                    if (Math.Abs(currentNumber) <= Math.Abs(closestNumber))
+                    {
+                        if (Math.Abs(closestNumber) == Math.Abs(currentNumber) && currentNumber < closestNumber) 
+                        {
+                            continue;
+                        }
+                        closestNumber = currentNumber;
+                    }
+                }
+
+                return closestNumber;
+            };
+
+            Console.WriteLine(closestToZero("43728 423 935 -213 326 432 231 323 -1 1"));
+        }
+    }*/
+
     /*public class AdditionalTask7
     {
         static void Main(string[] args)
